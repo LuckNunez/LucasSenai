@@ -1,3 +1,50 @@
+from tkinter import *
+janela = Tk()
+janela.title("McDonald's")
+texto = Label(janela, text="Escolha uma das opções:")
+texto.grid(column=0, row=0, padx=10, pady=10)
+
+def botao_menu():
+    Exibir_Menu()
+
+def botao_adicionar_item():
+    Adicionar_Item()
+
+def botao_remover_item():
+    Remover_Item()
+
+def botao_visualizar_carrinho():
+    Exibir_Pedido()
+
+def botao_calcular_total():
+    Calcular_Total()
+
+def botao_sair():
+    print("Saindo...")
+    janela.destroy()
+
+botao_menu = Button(janela, text="Menu", command=botao_menu)
+botao_menu.grid(column=0, row=1, padx=10, pady=20)
+
+botao_adicionar = Button(janela, text="Adicionar Item", command=botao_adicionar_item)
+botao_adicionar.grid(column=0, row=2, padx=10, pady=20)
+
+botao_remover = Button(janela, text="Remover Item", command=botao_remover_item)
+botao_remover.grid(column=0, row=3, padx=10, pady=20)
+
+botao_visualizar = Button(janela, text="Visualizar o Carrinho", command=botao_visualizar_carrinho)
+botao_visualizar.grid(column=0, row=4, padx=10, pady=20)
+
+botao_calcular = Button(janela, text="Calcular Total", command=botao_calcular_total)
+botao_calcular.grid(column=0, row=5, padx=10, pady=20)
+
+botao_sair = Button(janela, text="Sair", command=botao_sair)
+botao_sair.grid(column=0, row=6, padx=10, pady=20)
+
+# Rótulo para exibir mensagens
+texto_resposta = Label(janela, text="")
+texto_resposta.grid(column=0, row=7, padx=10, pady=10)
+
 import time
 lista = {
     'Big Mac' : '15.90',
@@ -56,31 +103,4 @@ def Calcular_Total():
     else:
         print("Opção inválida. Por favor, escolha um número válido.")
 
-escolha = 0
-while escolha != 7:
-    print("Bem-vindo ao McDonald's!")
-    print('[1] Menu \n[2] Adicionar Item \n[3] Remover Item \n[4] Vizualizar Carrinho de Compras \n[5] Calcular Total \n[6] Sair \n Escolha uma opção:')
-
-    escolha = int(input())
-    if escolha == 1:
-        Exibir_Menu()
-        time.sleep(1)
-    elif escolha == 2:
-        Adicionar_Item()
-        time.sleep(1)
-    elif escolha == 3:
-        Remover_Item()
-        time.sleep(1)
-    elif escolha == 4:
-        Exibir_Pedido()
-        time.sleep(1)
-    elif escolha == 5:
-        Calcular_Total()
-        time.sleep(1)
-    elif escolha == 6:
-        print("Saindo...")
-        time.sleep(1)
-        exit()
-    else:
-        print("Opção inválida. Por favor, escolha um número válido.")
-    
+janela.mainloop()
