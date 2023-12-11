@@ -1,0 +1,53 @@
+O que é um protocolo da web?
+Um Conjunto de Regras Que Define como os dados são transmitidos pela internet.
+
+Qual é a função de um sistema operacional?
+A - Gerenciar os recursos de hardware e software do computador
+ou
+D- todas Alternativas
+
+Qual é a sintaxe correta para definir uma função em python?
+Def nome_da_funcao(parametros)?
+
+o que é uma rede de computadores?
+Conjunto de computadores conectados por cabos ou sem fio
+
+O que é um processo em um sistema operacional?
+Uma unidade de execução que realiza uma tarefa especifica.
+
+O que é uma variavel em python?
+Um nome que representa um valor ou uma expressão
+
+O que é o protocolo http?
+Um protocolo que define como as págunas web são solicitadas e enviadas pela internet.
+
+O que é um sistema operacional de tempo real?
+b- Um sistema operacional que executa as tarefas em tempo hábil e previsível
+
+O que é uma lista em python
+uma lista é uma estrutura de dados que permite armazenar e organizar elementos. É uma sequência mutável
+
+O que é o protocolo TCP
+Todas alternativas
+
+Modulo em python?
+pode ser a importação de algo para dentro do programa, exemplo se você definir uma função em um outro codigo conseguimos puxar ela utilizando o import contanto que ela esteja no seu repositorio.
+
+String em python?
+Em Python, uma string é uma sequência de caracteres. É utilizada para representar texto e é uma parte fundamental da linguagem. utilizamos o str = (parametro)
+
+o que é um dicionario em python e como cria-lo?
+Em Python, um dicionário é uma estrutura de dados que permite armazenar pares chave-valor, onde cada chave é única. É semelhante a um dicionário físico, onde você procura uma palavra (chave) para obter sua definição (valor). Os dicionários são mutáveis, o que significa que você pode adicionar, modificar ou excluir itens após a sua criação.
+
+o que é um loop em python e quais os loops existentes
+Os loops são uma maneira eficiente de automatizar tarefas repetitivas.
+(For e While)
+
+O que é uma condição em python e quais são os operadores logicos?
+Uma condição em Python refere-se a uma expressão ou teste lógico que é avaliado como verdadeiro ou falso.
+Temos varios tipos de operadores logicos como AND, OR, NOT, etc.
+
+O que é uma função em python e como definir e chama-la?
+Uma função em Python é um bloco de código com determinados parametros que pode ser chamado e executado em qualquer momento do programa.
+def nome_da_funcao(parametros):
+
