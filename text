@@ -1,0 +1,11 @@
+sistema representar logica do caixa eletronico
+
+7 passos
+
+1 passo - criar um dicionario chamado conta, armazena saldo e senha, serve como base para tudo
+2 passo - autenticar a conta do usuário/senha
+3 passo - operação bancaria (menu do caixa eletronico)
+4 passo - verificar saldo
+5 passo - depositar saldo
+6 passo - retirar valor
+7 passo - sair
